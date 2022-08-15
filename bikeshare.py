@@ -215,6 +215,21 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
+    
+def Bikeshare_Raw_Data(df):
+    """ Displays raw data of the selected city in rows of 5 till the end of rows """
+    
+    #Prompts user if they want to view raw data
+    view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n').lower()
+    start_loc = 0
+    
+    #As long as the user wants to see raw data, keep showing data in rows of 5
+    while (view_data == 'yes'):
+        print(df.iloc[start_loc:start_loc + 5])
+        start_loc += 5
+        view_data = input("Do you wish to continue?: ").lower()
+
+    
 
 
       
@@ -227,6 +242,7 @@ def main():
         time_stats(df)
         trip_duration_stats(df)
         station_stats(df)
+        Bikeshare_Raw_Data(df)
        
         
         
