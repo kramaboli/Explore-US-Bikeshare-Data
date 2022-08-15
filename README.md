@@ -17,6 +17,42 @@ In this project, Python is used to explore data related to bike share systems fo
 3. new_york_city.csv
 4. washington.csv
 
+### Softwares needed:
+1. python 3
+2. numpy
+3. pandas
+4. atom text editor
+
+### Installation instructions for the software and firmware
+1. Git for windows - for terminal application using Git Bash](https://gitforwindows.org/
+2. Python using Anaconda (latest version for windows)](https://www.anaconda.com/distribution
+
+### Statistics Computed:
+The code helps user to explore bike share system services in Chicago, New York City and Washington by computing a variety of descriptive statistics. In this project, the code output will provide the following information:
+
+1. Popular times of travel (i.e., occurs most often in the start time):
+
+  - most common month
+  - most common day of week
+  - most common hour of day
+
+2. Popular stations and trip:
+
+  - most common start station
+  - most common end station
+  - most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+3. Trip duration:
+
+  - total travel time
+  - average travel time
+
+4. User info:
+
+  - counts of each user type
+  - counts of each gender (only available for _NYC_ and _Chicago_)
+  - earliest, most recent, most common year of birth (only available for _NYC_ and _Chicago_)
+
 ### Credits
 1. Vodacom Lesotho and Udacity
 
